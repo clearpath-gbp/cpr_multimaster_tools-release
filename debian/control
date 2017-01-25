@@ -1,0 +1,12 @@
+Source: ros-kinetic-cpr-multimaster-tools
+Section: misc
+Priority: extra
+Maintainer: Paul Bovbel <pbovbel@clearpath.ai>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-cpr-multimaster-tools
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-clock-relay, ros-kinetic-message-relay, ros-kinetic-multimaster-launch, ros-kinetic-multimaster-msgs, ros-kinetic-tf2-relay
+Description: Multi-master tools for configuration and message relaying
