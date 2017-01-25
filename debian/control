@@ -1,0 +1,12 @@
+Source: ros-kinetic-multimaster-launch
+Section: misc
+Priority: extra
+Maintainer: Paul Bovbel <pbovbel@clearpath.ai>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-roslaunch, ros-kinetic-roslint
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-multimaster-launch
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-clock-relay, ros-kinetic-master-discovery-fkie, ros-kinetic-master-sync-fkie, ros-kinetic-message-relay, ros-kinetic-tf2-relay
+Description: Multi-master bringup launch files for CPR platforms
