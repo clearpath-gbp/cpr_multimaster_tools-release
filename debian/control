@@ -1,0 +1,12 @@
+Source: ros-melodic-clock-relay
+Section: misc
+Priority: extra
+Maintainer: Paul Bovbel <pbovbel@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-message-relay, ros-melodic-roscpp, ros-melodic-rosgraph-msgs, ros-melodic-roslint
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-melodic-clock-relay
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-message-relay, ros-melodic-roscpp, ros-melodic-rosgraph-msgs
+Description: Specialization of message_relay for clock
