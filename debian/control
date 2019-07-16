@@ -1,0 +1,12 @@
+Source: ros-melodic-multimaster-launch
+Section: misc
+Priority: extra
+Maintainer: Paul Bovbel <pbovbel@clearpath.ai>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-roslaunch
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-melodic-multimaster-launch
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-clock-relay, ros-melodic-master-discovery-fkie, ros-melodic-master-sync-fkie, ros-melodic-message-relay, ros-melodic-tf2-relay
+Description: Multi-master bringup launch files for CPR platforms
