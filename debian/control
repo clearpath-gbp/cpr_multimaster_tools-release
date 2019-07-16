@@ -1,0 +1,13 @@
+Source: ros-melodic-message-relay
+Section: misc
+Priority: extra
+Maintainer: Paul Bovbel <pbovbel@clearpath.ai>
+Build-Depends: debhelper (>= 9.0.0), python-cheetah, ros-melodic-actionlib-msgs, ros-melodic-catkin, ros-melodic-controller-manager-msgs, ros-melodic-diagnostic-msgs, ros-melodic-gazebo-msgs, ros-melodic-geometry-msgs, ros-melodic-map-msgs, ros-melodic-move-base-msgs, ros-melodic-multimaster-msgs, ros-melodic-nav-msgs, ros-melodic-robot-localization, ros-melodic-roscpp, ros-melodic-rosgraph-msgs, ros-melodic-roslaunch, ros-melodic-roslint, ros-melodic-sensor-msgs, ros-melodic-shape-msgs, ros-melodic-std-msgs, ros-melodic-std-srvs, ros-melodic-stereo-msgs, ros-melodic-tf2-msgs, ros-melodic-trajectory-msgs, ros-melodic-visualization-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-melodic-message-relay
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-actionlib-msgs, ros-melodic-controller-manager-msgs, ros-melodic-diagnostic-msgs, ros-melodic-gazebo-msgs, ros-melodic-geometry-msgs, ros-melodic-map-msgs, ros-melodic-move-base-msgs, ros-melodic-multimaster-msgs, ros-melodic-nav-msgs, ros-melodic-robot-localization, ros-melodic-roscpp, ros-melodic-rosgraph-msgs, ros-melodic-sensor-msgs, ros-melodic-shape-msgs, ros-melodic-std-msgs, ros-melodic-std-srvs, ros-melodic-stereo-msgs, ros-melodic-tf2-msgs, ros-melodic-trajectory-msgs, ros-melodic-visualization-msgs
+Description: Package to programmatically spawn message, service, and action relays.
+ To add support for a message/service dependency, please add to the build dependencies in package.xml and CMakeLists.txt
