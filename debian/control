@@ -1,0 +1,12 @@
+Source: ros-melodic-multimaster-msgs
+Section: misc
+Priority: extra
+Maintainer: Paul Bovbel <pbovbel@clearpath.ai>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-message-generation, ros-melodic-std-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-melodic-multimaster-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-message-runtime, ros-melodic-std-msgs
+Description: The multimaster_msgs package
