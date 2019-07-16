@@ -1,0 +1,15 @@
+ros-melodic-tf2-relay (0.0.2-1bionic) bionic; urgency=high
+
+  * Updated maintainers.
+  * Contributors: Tony Baltovski
+
+ -- Paul Bovbel <pbovbel@clearpath.ai>  Tue, 16 Jul 2019 04:00:00 -0000
+
+ros-melodic-tf2-relay (0.0.1-1bionic) bionic; urgency=high
+
+  * Initial commit
+  * Contributors: Paul Bovbel
+
+ -- Paul Bovbel <pbovbel@clearpath.ai>  Tue, 24 Jan 2017 05:00:00 -0000
+
+
